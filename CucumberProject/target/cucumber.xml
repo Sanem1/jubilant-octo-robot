@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="221.313" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Pet Shop Category Test" name="User selects the Pet Shop category and sorts products by lowest price - Example #1.1" time="209.905">
+<system-out><![CDATA[
+Given Given The user navigates to homepage on "chrome"......................passed
+When The user selects the Pet Shop category from the Kategoriler section....passed
+Then The user verifies that the page is displayed...........................passed
+When The user sorts the products by lowest price first......................passed
+Then The user verifies that the products are sorted by lowest price first...passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Shop Category Test" name="User selects the Pet Shop category and sorts products by lowest price - Example #1.2" time="11.149">
+<system-out><![CDATA[
+Given Given The user navigates to homepage on "firefox".....................passed
+When The user selects the Pet Shop category from the Kategoriler section....passed
+Then The user verifies that the page is displayed...........................passed
+When The user sorts the products by lowest price first......................passed
+Then The user verifies that the products are sorted by lowest price first...passed
+]]></system-out>
+</testcase>
+</testsuite>
